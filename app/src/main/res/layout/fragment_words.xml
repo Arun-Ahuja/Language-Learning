@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/moen_jo_daro3new"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Learn Sindhi"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/rellay_computer"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.55"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:background="@drawable/relative_effect"
+                    android:backgroundTint="@android:color/holo_red_dark"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgcomputer1"
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/camputer"
+                            android:adjustViewBounds="true"
+                            android:scaleType="centerInside"
+                            android:padding="0dp"
+                            android:layout_centerHorizontal="true"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imgcomputer1"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="0dp"
+                            android:text="Computer"
+                            android:textColor="@color/white"
+                            android:textSize="25sp" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/rellay_Math"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.55"
+                    android:layout_marginLeft="5dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:backgroundTint="@android:color/holo_purple"
+                    android:background="@drawable/relative_effect"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgMath2"
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="11dp"
+                            android:adjustViewBounds="true"
+                            android:padding="0dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/math" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mathematics"
+                            android:textSize="20sp"
+                            android:textColor="@color/white"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@+id/imgMath2"/>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/rellay_science"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.55"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:backgroundTint="@color/purple"
+                    android:background="@drawable/relative_effect"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgscience3"
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/science"
+                            android:adjustViewBounds="true"
+                            android:scaleType="centerInside"
+                            android:padding="0dp"
+                            android:layout_centerHorizontal="true"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Science"
+                            android:textSize="25sp"
+                            android:textColor="@color/white"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@+id/imgscience3"/>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:id="@+id/rellay_Animal"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.55"
+                    android:layout_marginLeft="5dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:backgroundTint="@color/gray"
+                    android:background="@drawable/relative_effect"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgAnimal4"
+                            android:layout_width="150dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/animal"
+                            android:adjustViewBounds="true"
+                            android:scaleType="centerInside"
+                            android:layout_marginTop="3dp"
+                            android:padding="0dp"
+                            android:layout_centerHorizontal="true"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imgAnimal4"
+                            android:layout_centerHorizontal="true"
+                            android:text="Animals"
+                            android:textColor="@color/white"
+                            android:textSize="25sp" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/rellay_Nature"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@android:color/holo_green_dark"
+                    android:background="@drawable/relative_effect"
+                    android:foreground="?attr/selectableItemBackground">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+                        <ImageView
+                            android:id="@+id/imgnature5"
+                            android:layout_width="193dp"
+                            android:layout_height="105dp"
+                            android:layout_centerHorizontal="true"
+                            android:adjustViewBounds="true"
+                            android:padding="0dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/nature" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imgnature5"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="0dp"
+                            android:text="Nature"
+                            android:textColor="@color/white"
+                            android:textSize="25sp" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

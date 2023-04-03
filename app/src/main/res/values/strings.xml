@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">SindhiLearning</string>
+    <string name="action_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="jokheerpiye">" جو کير پيئي سو وير ٿيئي
+Jo kheer piye so veer theeye \n
+ڍند زور وٺن،  سٺا سھڻا لڱن
+Dende zor vathan thadha suheran lagan \n
+اکيون جوت وڍي ڏاڌي سونھن ٿيئي
+Akhiyun jot vadhe dadhi suhan thiye \n
+وٺي زور بدن لڱ چست ٿين
+Vathe zor badan lina chust thiyan \n
+کير سفا سٺو، واھ ڏاڌو مٺو
+kheer safa sutho, vah dodho mitho \n
+ٻارو اچو پيون، ڀري کير وٽيون
+Baro acho piyuoon, bhare kheer vatiyoon \n"</string>
+
+    <string name="jhoomati">جھو جھو ماٽي\n
+Jhoo jhoo maati Makhanran ji charin \n\n
+لسي پنھجي گهاٽي\n
+Lasiba ji dati Makhanran ji charin \n\n
+مکڻ جي ماٽي\n
+Makhanran ji charin Makhanran ji charin \n\n
+امڙ سياڻي\n
+Amar siyarin Makhanran ji charin \n\n
+مکڻ جي ماٽي\n
+makharan ji mati Makhanran ji charin \n\n
+سٽاسجي آٽي\n
+suta saji aati Makhanran ji charin \n\n
+آيو مينهن آيو\n
+Ayo meeyu aayo Makhanran ji charin \n\n
+لٽڙا پسايو\n
+Latra pusayo Makhanran ji charin \n\n
+آجهو سج نڪتو لٽڙا سڪاي\n
+Ijho sij nikto latra sukayo Makhanran ji charin \n\n
+
+</string>
+    <string name="paisoladhum">پيسو لَڌُمُ پَٽَ تان\n
+Paiso Ladhum Pata Taan \n\n
+پيسي وَرتُم گاھُ\n
+Paise Wathtum Gaahu \n\n
+گاهُه ڏِنُم گانءِ کي\n
+Gaahu Dinum Menhin Khe \n\n
+گانءِ ڏِ نو کيِرُ\n
+Menhin Dino Kheeru \n\n
+کيِرُ ڏِنُمِ اَمان کي\n
+Kheeru Dinum Amma Khe \n\n
+اَمان ڏِنو لولو\n
+Amma Dino Lolo \n\n
+لولو ڏِنُمِ ڪانوَ کي\n
+Lolo Dinum Kaanwa Khe \n\n
+ڪانوَ ڏِنو کَنڀُ\n
+Kaanwa Dino Khambhu \n\n
+کَنڀُ ڏِنُمِ راجا کي\n
+Khambhu Dinum Raja Khe \n\n
+راجا ڏِنو گھوڙو\n
+Raja Dino Ghodo \n\n
+چَڙهيِ گھُمُ، چَڙهيِ گھُمُ\n
+Chadhi Ghum, Chadhi Ghum\n\n</string>
+    <string name="muhnji_ammar">مونڪي ڪنھن ٿي کير پيِاريو\n
+Munkhe Kehn The Kheeru Piyaaryo \n\n
+پيار منجھان ٿي گود وھاريو \n
+Pyaar Manjhaa The Godi Wihaaryo \n\n
+جوش ٿي ھرھر مون ڏي نھاريو \n
+Khush Thee Har Har Moo De Nihaaryo \n\n
+منھنجي امڙ منھنگي امڙ \n
+Muhinjee Ammad, Muhinjee Ammad \n\n
+پنڌ ڪندي جي ڌڪو کاڌم \n
+Pandhu Kande Je Dhiko Khadum \n\n
+ڪنھن کڻي ٿي ڇاتي لاتم \n
+Kehn Khani The Chhati’a Laatum \n\n
+پيار منجھان ٿي ڀاڪر پاتم \n
+Pyaar Manjhha The Bhaakur Paatum \n\n
+منھنجي امڙ منھنجي امڙ \n
+Muhinjee Ammad, Muhinjee Ammad \n\n
+ننڊ ڦٽي مون جڏھن ٿي پيئي \n
+Nind fiti Moon Jadehin the paye \n\n
+ڪنھن ٿي سمھاريو لولي ڏيئي \n
+Kanhin Sumharyo loli deye \n\n
+ڇڏي ن مونکي ڪيڏانهن ويئي \n
+Chade Na Munkhe Kedahin veyi \n\n
+منهنجن امڙ منهنجي امڙ \n
+Muhinjee Ammad, Muhinjee Ammad \n\n
+وڌي جڏهن مان وڏو ٿيندس \n
+Wadhi Jadhn Maan Wado Theendus \n\n
+سک سوين مان توکي ڏيندس \n
+Sukha Sawaen Aau Tokhe Deendus  \n\n
+تو تي منهنجو ساه ڇڏيندس \n
+Tote Pehnjo Saahu Chadeendus \n\n
+منهنجي امڙ منهنجي امڙ \n
+Muhinjee Ammad, Muhinjee Ammad \n\n\n\n
+</string>
+    <string name="wahretaara">واه ڙي تارا گول تارا \n
+Waah Re Taaraa, Gol Taaraa \n\n
+روشن تارا چمڪي وارا \n
+Roshan Taaraa, Chimke Waaraa \n\n
+سانجهي ٽاڻي نڪرو ٿا \n
+Saanjhee’a Taane Nikro Thaa \n\n
+اُڀ سڄي ۾ پکڙو ٿا \n
+Ubh Saje Mein Pakhiryo Thaa \n\n
+چلڪو چمڪو ساري رات \n
+Chilko Chimko Saaree Raat \n\n
+ڪجي آوهان جي ڪهڙي بات \n
+Kaje Awhaanjee Kehdee Baat \n\n
+رات لنگهي ويئي باقي ڇا \n
+Raat Langhe Weyi Baakee Chhaa \n\n
+اوهين ٻڌايو واٽ اها \n
+Awheen Bataayo Waat Ihaa \n\n
+جوت اوها جي ن هجي \n
+Jot Awhaanjee Je Na Huje \n\n
+واٽهڙ واٽ منجهي \n
+Watehrdu  Kar Waat Munjhe \n\n
+</string>
+
+</resources>

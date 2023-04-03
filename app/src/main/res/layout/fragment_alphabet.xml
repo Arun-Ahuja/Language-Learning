@@ -1,0 +1,185 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sindhilearning.fragments.AlphabetFrag">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/moen_jo_daro3new"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Learn Sindhi"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lst_option"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@android:color/white"
+        android:visibility="gone"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/ll_lesson"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:visibility="gone"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_english"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="36dp" />
+
+
+        <TextView
+            android:id="@+id/tv_sindhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="36dp" />
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rect_dark"
+            android:padding="10dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_quiz_image"
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            android:background="@drawable/rect_dark"
+            android:padding="5dp"
+            android:src="@drawable/a"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_quiz_sindh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/rect_dark"
+            android:gravity="center_vertical"
+            android:text="انب"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lst_option_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/white"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/et_ans"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center|center_vertical"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text=""
+        android:editable="false"
+        android:focusable="false"
+        android:textSize="40dp"
+        android:visibility="gone" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btnprelevel1"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/prever" />
+
+        <Button
+            android:id="@+id/btnhome1"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:background="@drawable/home" />
+
+        <Button
+            android:id="@+id/btnnextlevel1"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/next" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_final_Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="Text"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+
+</LinearLayout>

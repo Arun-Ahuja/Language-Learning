@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_shop"
+        android:icon="@mipmap/shop"
+        android:title="Dashboard"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        />
+
+    <item
+        android:id="@+id/navigation_msg"
+        android:icon="@mipmap/account_icon_white"
+        android:title="account"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        />
+
+
+
+
+
+</menu>

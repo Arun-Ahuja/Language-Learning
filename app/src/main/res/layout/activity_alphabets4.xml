@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+
+            <Button
+                android:id="@+id/btnV"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/alphabets_button"
+                android:backgroundTint="@color/teal"
+                android:text="ڏ"
+                android:textSize="60dp"
+                />
+            <Button
+                android:id="@+id/btnU"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@drawable/alphabets_button"
+                android:layout_marginRight="15dp"
+                android:backgroundTint="@color/teal"
+                android:text="ڌ"
+                android:textSize="60dp"
+                />
+            <Button
+                android:id="@+id/btnST"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@drawable/alphabets_button"
+                android:backgroundTint="@color/teal"
+                android:text="د"
+                android:textSize="60dp"
+                />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            >
+
+            <Button
+                android:id="@+id/btnY"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/alphabets_button"
+                android:backgroundTint="@color/teal"
+                android:text="ذ"
+                android:textSize="60dp"
+                />
+
+            <Button
+                android:id="@+id/btnX"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/alphabets_button"
+                android:backgroundTint="@color/teal"
+                android:clickable="true"
+                android:text="ڍ"
+                android:textSize="60dp"
+                />
+            <Button
+                android:id="@+id/btnW"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@drawable/alphabets_button"
+                android:backgroundTint="@color/teal"
+
+                android:text="ڊ"
+                android:textSize="60dp"
+                />
+        </TableRow>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            >
+            <TableRow
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/txtD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:textSize="50sp"
+                    android:textStyle="bold"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+                <TextView
+                    android:id="@+id/txtd"
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    />
+            </TableRow>
+
+        </TableLayout>
+
+
+        <TableLayout>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgD"
+                    android:layout_width="229dp"
+                    android:layout_height="144dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    />
+
+
+            </TableRow>
+
+
+
+        </TableLayout>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom|center"
+        >
+
+        <TableRow
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/teal"
+            android:orientation="horizontal"
+            >
+
+
+            <Button
+                android:id="@+id/btnprelevel4"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:background="@drawable/prever"
+                android:layout_marginLeft="20dp"
+                />
+
+            <Button
+                android:id="@+id/btnhome4"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="95dp"
+                android:background="@drawable/home"
+
+
+                />
+
+
+            <Button
+                android:id="@+id/btnnextlevel4"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:background="@drawable/next"
+                android:layout_marginLeft="85dp"
+                />
+
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/moen_jo_daro3new"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learn Sindhi"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            />
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/rellay_Basic"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.55"
+                    android:clickable="true"
+                    android:backgroundTint="@color/DarkSeaGreen"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:background="@drawable/relative_effect"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_centerInParent="true"
+                        android:id="@+id/rl_basic"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/learn_sindhi_icon"
+                            android:scaleType="centerInside"
+                            android:padding="8dp"
+                            android:layout_centerHorizontal="true"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imgView1"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="0dp"
+                            android:textStyle="bold"
+                            android:text="بنياد"
+                            android:textColor="@android:color/white"
+                            android:textSize="30dp" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/rellay_word"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="0.55"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:backgroundTint="@color/RosyBrown"
+                    android:background="@drawable/relative_effect"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_centerInParent="true"
+                        android:id="@+id/rl_words"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:adjustViewBounds="true"
+                            android:background="@drawable/words"
+                            android:padding="8dp"
+                            android:scaleType="centerInside" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="لفظ"
+                            android:textSize="30sp"
+                            android:textColor="@android:color/white"
+                            android:textStyle="bold"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@+id/imgView2"/>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/rellay_sentences"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.55"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:backgroundTint="@color/purple"
+                    android:background="@drawable/relative_effect"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_centerInParent="true"
+                        android:id="@+id/rl_sentences"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/sentences"
+                            android:padding="8dp"
+                            android:layout_centerHorizontal="true"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="جملا"
+                            android:textStyle="bold"
+                            android:textSize="30sp"
+                            android:textColor="@android:color/white"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@+id/imgView3"/>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rellay_poems"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="0.55"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:backgroundTint="@color/SkyBlue"
+                    android:background="@drawable/relative_effect"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_centerInParent="true"
+                        android:id="@+id/rl_poems"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgView4"
+                            android:layout_width="130dp"
+                            android:layout_height="157dp"
+                            android:layout_centerHorizontal="true"
+                            android:adjustViewBounds="true"
+                            android:background="@drawable/poem"
+                            android:padding="8dp"
+                            android:scaleType="centerInside" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="بيت"
+                            android:textSize="30sp"
+                            android:textColor="@android:color/white"
+                            android:textStyle="bold"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@+id/imgView4"/>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

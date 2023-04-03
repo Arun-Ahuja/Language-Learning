@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        >
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="121dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="35dp"
+            android:src="@drawable/a" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:text="انب"
+            android:textSize="60sp" />
+    </TableRow>
+</TableLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lst_option"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@android:color/white"/>
+
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TableRow
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/alphabets_button"
+                android:backgroundTint="@color/teal"
+                android:text="ٻ"
+                android:textSize="60dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/alphabets_button"
+                android:backgroundTint="@color/teal"
+                android:text="ا"
+                android:textSize="60dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/alphabets_button"
+                android:backgroundTint="@color/teal"
+                android:text="ب"
+                android:textSize="60dp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <EditText
+        android:layout_width="331dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:layout_marginTop="25dp" />
+
+</LinearLayout>

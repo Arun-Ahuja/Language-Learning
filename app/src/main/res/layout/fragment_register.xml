@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/moen_jo_daro3new">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/moen_jo_daro3new"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Learn Sindhi"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </android.support.v7.widget.Toolbar>
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registeration"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="18sp"
+
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/tv_title"
+        >
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="@drawable/et_style"
+            android:hint="enter name"
+            android:textColorHint="@android:color/white"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_style"
+            android:hint="enter email"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:textColorHint="@android:color/white"
+            />
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_style"
+            android:hint="enter password"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:paddingBottom="10dp"
+            android:textColorHint="@android:color/white"
+            android:layout_marginTop="5dp"
+            />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textSize="16sp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/btn_style"
+            android:textColor="@android:color/white"
+
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
